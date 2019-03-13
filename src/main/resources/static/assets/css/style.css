@@ -1,0 +1,145 @@
+body{
+    height: 3000px;
+}
+#navlogin{
+    font-weight: bold;
+    border-radius: 25px;
+    background: white;
+    color: #53688a;
+    box-shadow:0 3px 6px -4px #121212;
+}
+.logoutbtn{
+    border-radius: 25px;
+    margin: 0;
+    font-weight: bold;
+    color: #738085;
+    background: white;
+    box-shadow:0 3px 6px -4px #121212;
+}
+.btn1{
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+    position: relative;
+    background: linear-gradient(120deg, rgba(115,128,133,1) 0%, rgba(84,99,104,1) 50%, rgba(69,85,90,1) 50%, rgba(55,71,77,1) 100%);
+    margin: 20% 0;
+    left: 50%;
+    width: 150px;
+}
+#loginform{
+
+
+    box-shadow:0 1px 6px -1px #8f8f8f;
+    background: linear-gradient(120deg, rgba(164,182,187,1) 47%, rgba(180,192,196,1) 47%, rgba(205,205,205,1) 100%);
+    background: linear-gradient(120deg, #009bb4 30%, rgba(0, 155, 180, 0.87) 40%, rgba(0, 155, 180, 0.7) 70%);
+
+    padding: 1.3rem;
+    margin-left: 1%;
+    margin-top: 6rem;
+    width: 30%;
+    height: 33rem;
+    border: 0;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    position: fixed;
+    transform: translate(0, 0);
+}
+
+#login {
+    text-align: center;
+    margin: 10px 10px 30px 10px;
+    font-size: 2.5rem;
+    color: #ffffff;
+}
+
+#logo {
+    font-weight: bold;
+    color: #ffffff;
+    margin-left: 2rem;
+}
+#navbar{
+    background: linear-gradient(120deg, rgba(164,182,187,1) 47%, rgba(180,192,196,1) 47%, rgba(205,205,205,1) 100%);
+    background: #008297;
+    z-index:1000;
+
+    position: fixed;
+}
+#postform{
+    color: #465775;
+    margin-top: 6rem;
+}
+.card{
+    color: #465775;
+    box-shadow:0 1px 6px -1px #8f8f8f;
+}
+.card-content{
+    color: #445471;
+    background: #d8dddf;
+}
+#a{
+    color: #465775;
+}
+.nav-wrapper {
+    top:0;
+    right: 0;
+}
+
+#nav-mobile {
+    margin-right: 3rem;
+}
+
+
+#email, #password , #mChoiceList{
+    padding-left:1.1rem;
+    font-size: 1.2rem;
+    background: white;
+    box-shadow: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 5px;
+    border: 0px solid #1e97d6;
+}
+#mChoiceList{
+    padding-left:1.1rem;
+    font-size: 1.2rem;
+    background: white;
+    box-shadow: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 5px;
+    border: 1px solid #738085;
+}
+
+#email:focus,#password:focus, #mChoiceList:focus {
+    box-shadow: none;
+    border: 1px solid #6b777c;
+}
+
+ #multichoice, #singlechoice{
+    width: 40px;
+    margin-right: 50px;
+}
+
+#textarea{
+    box-sizing:border-box;
+    padding: 10px;
+    height: 100px;
+    background-color: white;
+}
+#multichoicetoggle, #singlechoicetoggle{
+
+    display: none;
+}
+#votingcheckbox, #votingradio{
+
+}
+#post {
+    float: right;
+}
+#upload{
+    display: none;
+}
+#label{
+    color: #6B777C;
+}
+

@@ -1,0 +1,51 @@
+<!DOCTYPE "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>VotingApp</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/materialize.min.css" th:href="@{assets/css/materialize.min.css}" media="all"/>
+    <link rel="stylesheet" href="assets/css/style.css" th:href="@{assets/css/style.css}" media="all"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+</head>
+
+<body>
+
+
+
+    <div id="bodynav" class="row">
+        <div class="col s8"></div>
+        <div class="col s4">
+
+            <div id="loginform" class="row">
+                <h4 id="login">login</h4>
+                <form action="home.html" th:action="@{/login}" method="post" th:method="post"  class="col s12">
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input th:type="text" id="username" name="username" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="password" type="password" name="password" placeholder="password" class="validate" />
+                        </div>
+                    </div>
+
+                    <button th:type="submit"  class="btn1 waves-effect waves-light btn" >login</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+            type="text/javascript" th:src="@{https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js}"></script>
+    <script src="assets/js/materialize.min.js" type="text/javascript" th:src="@{assets/js/materialize.min.js}"></script>
+
+</body>
+
+</html>
